@@ -1,4 +1,18 @@
 /* Basic Style */
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -76,8 +90,7 @@
 }
 
 /* Heading */
-.title,
-.add-item__label {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,8 +118,7 @@
 }
 
 /* New Task */
-.add-item__label {
-  display: block;
+.add-item .title {
   margin: 0 0 20px;
 }
 
