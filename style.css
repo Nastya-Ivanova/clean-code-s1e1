@@ -50,11 +50,14 @@
   padding: 0px;
 }
 
-.list__item, .title {
+.list__item,
+.title {
   list-style: none;
 }
 
-.list__checkbox,.field-text,.btn{
+.list__checkbox,
+.field-text,
+.btn {
   outline: none;
 }
 
@@ -130,7 +133,7 @@
   vertical-align: middle;
 }
 
-.list__item >  .list__checkbox {
+.list__item > .list__checkbox {
   margin: 0 10px;
 }
 
@@ -141,7 +144,7 @@
   width: 226px;
 }
 
-.list__item >  .field-text {
+.list__item > .field-text {
   width: 226px;
 }
 
