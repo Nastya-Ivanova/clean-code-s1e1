@@ -46,16 +46,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list__item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .list__checkbox,.field-text,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -167,14 +167,14 @@
 
 /* Edit Task */
 .list .list__item .field-text {
-  display:none
+  display: none
 }
 
 .list .list__item--shopping .field-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .list__item--shopping .list__label {
-  display:none;
+  display: none;
 }
