@@ -160,22 +160,22 @@
   width: 226px;
 }
 
-.list__item > .list__btn--delete:hover {
+.list__item > .list__btn_delete:hover {
   color: #CF2323;
 }
 
-.list__btn--delete .list__btn-img {
+.list__btn_delete .list__btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.list__btn--delete .list__btn-img:hover {
+.list__btn_delete .list__btn-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list__item--completed .list__label {
+.list__item_completed .list__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -185,11 +185,11 @@
   display: none;
 }
 
-.list .list__item--shopping .field-text {
+.list .list__item_shopping .field-text {
   display: inline-block;
   width: 224px;
 }
 
-.list .list__item--shopping .list__label {
+.list .list__item_shopping .list__label {
   display: none;
 }
