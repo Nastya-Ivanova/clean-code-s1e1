@@ -31,7 +31,7 @@
 }
 
 .more .more__link {
-  font-family: cursive, fantasy;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
