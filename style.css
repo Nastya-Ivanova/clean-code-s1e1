@@ -31,7 +31,7 @@
 }
 
 .more .more__link {
-  font-family: fantasy, cursive;
+  font-family: cursive, fantasy;
 }
 
 @media (max-width:768px) {
@@ -86,7 +86,7 @@
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -127,7 +127,7 @@
 }
 
 .add-item .btn:hover {
-  color: #0FC57C;
+  color: #0fc57c;
 }
 
 /* Task list */
@@ -161,7 +161,7 @@
 }
 
 .list__item > .list__btn_delete:hover {
-  color: #CF2323;
+  color: #cf2323;
 }
 
 .list__btn_delete .list__btn-img {
