@@ -8,8 +8,8 @@
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-    clip-path: inset(100%);
-    clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 
@@ -34,12 +34,10 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .more {
     text-align: center;
   }
-
 }
 
 .container {
@@ -86,7 +84,7 @@
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -106,8 +104,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -127,7 +125,7 @@
 }
 
 .add-item .btn:hover {
-  color: #0FC57C;
+  color: #0fc57c;
 }
 
 /* Task list */
@@ -161,7 +159,7 @@
 }
 
 .list__item > .list__btn_delete:hover {
-  color: #CF2323;
+  color: #cf2323;
 }
 
 .list__btn_delete .list__btn-img {
